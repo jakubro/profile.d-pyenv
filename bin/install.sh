@@ -13,6 +13,6 @@ else
   log_info "Updating pyenv..."
 
   cd ~/.pyenv || exit 1
-  git pull || exit 1
+  git pull --quiet || exit 1
 
 fi
