@@ -4,7 +4,7 @@ if [ ! -d ~/.pyenv ]; then
 
   log_info "Installing pyenv..."
 
-  curl -s https://pyenv.run | bash || exit 1
+  curl -s https://pyenv.run | /bin/bash || exit 1
 
   log_info "You can safely ignore any instructions printed above"
 

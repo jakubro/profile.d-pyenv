@@ -73,11 +73,6 @@ The plugin:
 3. Initializes pyenv shell integration on shell startup
 4. Provides seamless integration with Python version management
 
-## Requirements
-
-- Git (automatically installed by profile.d if missing)
-- Build dependencies (automatically installed on supported distributions by profile.d if missing)
-
 ## Contributing
 
 If you would like to contribute to this project, please feel free to submit a pull request or open an issue for
