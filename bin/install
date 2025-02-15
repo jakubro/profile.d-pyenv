@@ -16,3 +16,5 @@ else
   git pull --quiet || exit 1
 
 fi
+
+cd ~/.pyenv && src/configure && make -C src
